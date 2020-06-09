@@ -9,7 +9,7 @@ public class Texts
     {
         return getCommandText(color + name,
                 "/nicks help " + sysName,
-                String.format("%s%s"+ EnumChatFormatting.GREEN + "にセット!", color, name));
+                String.format("%s%s"+ EnumChatFormatting.GREEN + "に設定！", color, name));
     }
 
     public static ChatComponentText getSkin(String name, String suf, String sysName, String rank)
@@ -32,7 +32,7 @@ public class Texts
     public static ChatComponentText getWarnings(String command)
     {
         String textStr = "    [" +
-                EnumChatFormatting.DARK_RED + EnumChatFormatting.BOLD + "はい、私は危険を理解し、実行します。" +
+                EnumChatFormatting.DARK_RED + EnumChatFormatting.BOLD + "私は危険を理解し、実行します。" +
                 EnumChatFormatting.RESET + "]";
         return getCommandText(textStr,
                 command,

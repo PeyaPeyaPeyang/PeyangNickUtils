@@ -28,25 +28,25 @@ public class Nicks extends CommandBase
 
         if (args.length == 0)
         {
-            String text = EnumChatFormatting.AQUA + "=====" +
+            String text = EnumChatFormatting.AQUA + "===== " +
                     EnumChatFormatting.GREEN + "[" +
-                    EnumChatFormatting.BLUE + "NICKHUB" +
+                    EnumChatFormatting.BLUE + "PeyangNickUtils" +
                     EnumChatFormatting.GREEN + "]" +
-                    EnumChatFormatting.AQUA + "=====";
+                    EnumChatFormatting.AQUA + " =====";
             Players.send(text);
             Players.send(EnumChatFormatting.AQUA + "操作を選択してください！\n");
 
-            Players.send(Texts.getCommandText(EnumChatFormatting.GREEN + "Nickを設定する",
+            Players.send(Texts.getCommandText(EnumChatFormatting.GREEN + "ニックネームを設定する",
                     "/nicks help",
-                    EnumChatFormatting.GREEN + "Nickを設定する"));
+                    EnumChatFormatting.GREEN + "ニックネームを設定する"));
 
-            Players.send(Texts.getCommandText(EnumChatFormatting.GREEN + "Nick用のSkinを検索する",
+            Players.send(Texts.getCommandText(EnumChatFormatting.GREEN + "ニックネーム用のスキンを検索する",
                     "/nicks search",
-                    EnumChatFormatting.GREEN + "Nick用のSkinを検索する"));
+                    EnumChatFormatting.GREEN + "ニックネーム用のスキンを検索する"));
 
-            Players.send(Texts.getCommandText(EnumChatFormatting.RED + "Nickをリセットする",
+            Players.send(Texts.getCommandText(EnumChatFormatting.RED + "ニックネームをリセットする",
                     "/nicks reset",
-                    EnumChatFormatting.RED + "Nickをリセットする"));
+                    EnumChatFormatting.RED + "ニックネームをリセットする"));
 
 
             return;
