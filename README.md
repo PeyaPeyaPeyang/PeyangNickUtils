@@ -13,4 +13,4 @@ Hypixelのニックネームを簡単かつ高速に設定するForgeのModで�
 * Peyang (peyang-Celeron) Project Owner
 * Lemonade19x
 
-\(c\) 2020 Peyang. All Rights Reserved.
+© 2020 Peyang.
