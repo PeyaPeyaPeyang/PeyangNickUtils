@@ -39,9 +39,9 @@ public class PeyangNickutils
     {
         if(e.getSide() == Side.SERVER)
         {
-            System.out.println("This mod has not working in server.");
-            Minecraft.getMinecraft().crashed(new CrashReport("This Mod(nick) Is Not Server Side Compatible.",
-                    new BadSideException("This Mod(PML) Is Not Server Side Compatible. Require Client Side.")));
+            System.out.println("This Forge Mod is not server compatible. Only client side compatible.");
+            Minecraft.getMinecraft().crashed(new CrashReport("This Forge Mod is not server compatible. Only client side compatible.",
+                    new BadSideException("This Forge Mod is not server compatible. Only client side compatible.")));
         }
     }
 
