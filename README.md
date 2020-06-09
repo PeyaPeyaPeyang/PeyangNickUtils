@@ -9,7 +9,7 @@ Hypixelのニックネームを簡単かつ高速に設定するForgeのModで�
 # ライセンス
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## 製作者
+# 製作者
 * Peyang (peyang-Celeron) Project Owner
 * Lemonade19x
 
