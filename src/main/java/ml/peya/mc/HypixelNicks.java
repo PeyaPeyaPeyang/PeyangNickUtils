@@ -39,17 +39,17 @@ public class HypixelNicks
                 switch (name)
                 {
                     case "bypass":
-                        Players.send(EnumChatFormatting.GREEN + "Random生成中...");
+                        Players.send(EnumChatFormatting.GREEN + "ランダム生成中…");
                         Players.runCommand("/nick random");
                         Thread.sleep(1000);
                         break;
                     case "random":
-                        Players.send(EnumChatFormatting.GREEN + "Random生成中...");
+                        Players.send(EnumChatFormatting.GREEN + "ランダム生成中…");
                         Players.runCommand("/nick help setrandom");
                         Thread.sleep(1000);
                         break;
                     case "processing":
-                        Players.send(EnumChatFormatting.GREEN + "Nickの更新は行わず、スキンとランクのみを変更します。");
+                        Players.send(EnumChatFormatting.GREEN + "ニックネームの更新は行わず、スキンとランクのみを変更します。");
                         break;
                 }
 
@@ -57,7 +57,7 @@ public class HypixelNicks
                 Thread.sleep(1000);
                 setRank(rank);
                 Thread.sleep(1000);
-                Players.send(EnumChatFormatting.AQUA + "ニックネームを正常にセットしました！");
+                Players.send(EnumChatFormatting.AQUA + "ニックネームを正常に設定しました！");
             }
             catch (InterruptedException e)
             {
@@ -74,16 +74,16 @@ public class HypixelNicks
             try
             {
 
-                Players.send(EnumChatFormatting.GREEN + "スキン設定中...");
+                Players.send(EnumChatFormatting.GREEN + "スキンを設定中…");
                 Players.send(name);
                 if (!Skins.getAllSkinNames().contains(name))
                 {
-                    Players.send(EnumChatFormatting.RED + "エラー: 認識できないスキン名です。最初からやり直してください。");
+                    Players.send(EnumChatFormatting.RED + "エラー：認識できないスキン名です。最初からやり直してください。");
                     return;
                 }
                 Players.runCommand("/nick skin " + name);
                 Thread.sleep(500);
-                Players.send(EnumChatFormatting.AQUA + "スキンを正常にセットしました！");
+                Players.send(EnumChatFormatting.AQUA + "スキンを正常に設定しました！");
 
             }
             catch (InterruptedException e)
@@ -101,13 +101,13 @@ public class HypixelNicks
             {
                 if (convertRankName(rank).equals("unknown"))
                 {
-                    Players.send(EnumChatFormatting.RED + "エラー: 認識できないランクです。最初からやり直してください。");
+                    Players.send(EnumChatFormatting.RED + "エラー：認識できないランクです。最初からやり直してください。");
                     return;
                 }
-                Players.send(EnumChatFormatting.GREEN + "ランク設定中...");
+                Players.send(EnumChatFormatting.GREEN + "ランクを設定中…");
                 Players.runCommand("/nick rank " + rank);
                 Thread.sleep(500);
-                Players.send(EnumChatFormatting.AQUA + "ランクを正常にセットしました！");
+                Players.send(EnumChatFormatting.AQUA + "ランクを正常に設定しました！");
 
             }
             catch (InterruptedException e)

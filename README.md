@@ -1,16 +1,16 @@
 # PeyangNickUtils
 
-Hypixelサーバ(系の)ニックネームをかんたんかつ高速に設定するModです。(多分)
+Hypixelのニックネームを簡単かつ高速に設定するForgeのModです（たぶん）
 
-## コマンド
-### /nicks
-特に引数とかはつけなくても動作します。(多分)
+# コマンド
+## /nicks
+引数をつけなくても動作します（たぶん）
 
-## LICENSE
+# ライセンス
 [MIT](https://choosealicense.com/licenses/mit/)
-# Credit
-## つくった奴
-* Peyang (peyang-Celeron) ProjectOwner(多分)
 
+# 製作者
+* Peyang (peyang-Celeron) Project Owner
+* Lemonade19x
 
-\(c\) 2020 Peyang All Rights Reserved. (maybe)
+© 2020 Peyang.

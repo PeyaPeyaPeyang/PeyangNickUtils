@@ -9,7 +9,7 @@ public class Skin
     {
         if (args.length != 2)
         {
-            Players.send(EnumChatFormatting.RED + "エラー引数の数が正しくありません！");
+            Players.send(EnumChatFormatting.RED + "エラー：引数の数が正しくありません！");
             return;
         }
 

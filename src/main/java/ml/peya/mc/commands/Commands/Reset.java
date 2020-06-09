@@ -12,7 +12,7 @@ public class Reset
 
             try
             {
-                Players.send(EnumChatFormatting.RED + "Nickをリセットしまていす。。。");
+                Players.send(EnumChatFormatting.RED + "ニックネームをリセットしています…");
                 Thread.sleep(1000);
                 Players.runCommand("/nick reset");
                 Thread.sleep(500);
