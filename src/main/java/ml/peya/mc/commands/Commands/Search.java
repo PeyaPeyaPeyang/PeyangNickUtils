@@ -16,8 +16,8 @@ public class Search
         {
             String inputText = EnumChatFormatting.AQUA + "===================\n" +
                     EnumChatFormatting.AQUA + "スキンを検索します！\n" +
-                    EnumChatFormatting.AQUA + "/nicks <検索語句> を入力してください！\n" +
-                    EnumChatFormatting.GRAY + EnumChatFormatting.ITALIC + "NOTE: /nicks @ <正規表現> を入力すると、正規表現検索ができます！";
+                    EnumChatFormatting.AQUA + "使用方法：/nicks <検索語句>\n" +
+                    EnumChatFormatting.GRAY + EnumChatFormatting.ITALIC + "Tips：/nicks @ <正規表現>と入力すると、正規表現検索ができます！";
             Players.send(inputText);
             PeyangNickutils.isSkin = true;
             PeyangNickutils.command = "/nicks search ";
@@ -27,7 +27,7 @@ public class Search
             sizeFlag = true;
 
         String searchWords = EnumChatFormatting.AQUA + "===================\n" +
-                EnumChatFormatting.AQUA + "検索中です...";
+                EnumChatFormatting.AQUA + "検索中です…";
         Players.send(searchWords);
         boolean finalSizeFlag = sizeFlag;
         new Thread(()->{
@@ -62,7 +62,7 @@ public class Search
             }
 
 
-            Players.send(EnumChatFormatting.GRAY + "検索結果: " + results.size() + "件\n");
+            Players.send(EnumChatFormatting.GRAY + "検索結果：" + results.size() + "件\n");
             if (results.size() == 0)
             {
                 Players.send(EnumChatFormatting.GRAY + EnumChatFormatting.ITALIC.toString() + "    検索結果なし");
@@ -70,7 +70,7 @@ public class Search
             }
             else if (results.size() > 20 && !finalSizeFlag)
             {
-                Players.send(EnumChatFormatting.GRAY + "検索結果が、20件を超えています。表示しますか？");
+                Players.send(EnumChatFormatting.GRAY + "検索結果が20件を超えています。表示しますか？");
                 Players.send(Texts.getCommandText("    [" + EnumChatFormatting.GREEN + "はい" + EnumChatFormatting.WHITE + "]",
                         "/nicks search AcceptSizeWarning " + String.join(" ", words),
                         EnumChatFormatting.GREEN + "表示する"));
@@ -84,7 +84,7 @@ public class Search
                 ChatComponentText tmpResult = new ChatComponentText(EnumChatFormatting.GREEN + resultTxt + "   ");
                 ChatStyle style = new ChatStyle();
                 style.setChatHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,
-                        new ChatComponentText(EnumChatFormatting.GREEN + "スキンを " + resultTxt + " にセットする")));
+                        new ChatComponentText(EnumChatFormatting.GREEN + "スキンを " + resultTxt + " に設定する")));
                 style.setChatClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/nicks skin " + resultTxt));
                 tmpResult.setChatStyle(style);
 
