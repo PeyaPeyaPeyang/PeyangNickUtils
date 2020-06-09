@@ -1,18 +1,16 @@
-# PeyangRawChatViewer
-[![Build Status](https://travis-ci.com/P2P-Develop/PeyangRawChatViewer.svg?branch=master)](https://travis-ci.com/peyang-Celeron/PeyangRawChatViewer)
-[![GitHub license](https://img.shields.io/github/license/P2P-Develop/PeyangRawChatViewer)](https://github.com/P2P-Develop/PeyangRawChatViewer/blob/master/LICENSE)
-[![Maintainability](https://api.codeclimate.com/v1/badges/2e3011647c427bb89288/maintainability)](https://codeclimate.com/github/P2P-Develop/PeyangRawChatViewer/maintainability)  
-This mod is Chat Style raw data viewer.(json)
+# PeyangNickUtils
 
-## Usage
-### /rawchat \[on|off\] - Toggle RawView.
-#### Example: /rawchat \[on|off\]
+Hypixelサーバ(系の)ニックネームをかんたんかつ高速に設定するModです。(多分)
+
+## コマンド
+### /nicks
+特に引数とかはつけなくても動作します。(多分)
 
 ## LICENSE
-[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[MIT](https://choosealicense.com/licenses/mit/)
 # Credit
-## Developer
-* Compiled_peyang (peyang-Celeron) ProjectOwner
+## つくった奴
+* Peyang (peyang-Celeron) ProjectOwner(多分)
 
 
-\(c\) 2020 Peyang All Rights Reserved.
+\(c\) 2020 Peyang All Rights Reserved. (maybe)
