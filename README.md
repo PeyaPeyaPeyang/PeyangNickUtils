@@ -7,11 +7,10 @@ Hypixelのニックネームを簡単かつ高速に設定するForgeのModで�
 引数をつけなくても動作します（たぶん）
 
 # ライセンス
-このModは、[MIT](https://choosealicense.com/licenses/mit/)ライセンスです。
-# Credit
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## 製作者
 * Peyang (peyang-Celeron) Project Owner
 * Lemonade19x
-
 
 \(c\) 2020 Peyang. All Rights Reserved.
