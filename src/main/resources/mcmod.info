@@ -1,14 +1,15 @@
 [
   {
     "modid": "peyangnickutils",
-    "name": "Peyang NickName Utils",
-    "description": " Raw Book Viewer /rawbook [on|off] for toggle RawBook mode.",
+    "name": "PeyangNickUtils",
+    "description": "PeyangNickUtils",
     "version": "1.2",
     "mcversion": "[1.8,)",
     "url": "https://peya.ml/",
     "updateUrl": "",
     "authorList": [
-      "Compiled_peyang"
+      "Peyang",
+      "Lemonade19x",
     ],
     "credits": "",
     "logoFile": "",
